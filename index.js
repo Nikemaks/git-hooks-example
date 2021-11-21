@@ -9,4 +9,5 @@
 // pre-push.sample	git push	Прежде чем совершить действие (push)
 // pre-rebase.sample	git rebase	Прежде чем сделать передачу (pass) или слияние (merge)
 // pre-receive.sample	git push	Когда мы совершаем действие (push) и получаем данные из удалённого хранилища
+
 // update.sample	git push	Обновление удалённых данных одним действием (push).
