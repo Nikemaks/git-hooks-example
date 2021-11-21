@@ -9,12 +9,6 @@
     "prepushcommit": "echo \"prepushcommit\" && exit 0",
     "precommit": "npm run test"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "npm prepushcommit"
-    }
-  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
