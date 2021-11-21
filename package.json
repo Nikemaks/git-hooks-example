@@ -7,8 +7,13 @@
     "prepare": "husky install",
     "test": "echo \"test\" && exit 0",
     "prepushcommit": "echo \"prepushcommit\" && exit 0",
-    "precommit": "npm run test",
-    "prepush": "npm run prepushcommit"
+    "precommit": "npm run test"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm prepushcommit"
+    }
   },
   "author": "",
   "license": "ISC",
